@@ -4,6 +4,6 @@ A Userscript for [MouseHunt](https://mousehuntgame.com) that hides usernames fro
 
 ## Installation
 
-Install via [GreasyFork]([https://greasyfork.org/en/scripts/452996-mousehunt-halloween-map-helper](https://greasyfork.org/en/scripts/453301-mousehunt-journal-privacy)).
+Install via [GreasyFork](https://greasyfork.org/en/scripts/453301-mousehunt-journal-privacy).
 
 *You must have [ViolentMonkey](https://violentmonkey.github.io/) or another userscript manager installed.*
