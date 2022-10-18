@@ -1,0 +1,15 @@
+{
+  "name": "mh-journal-privacy",
+  "version": "1.0.0",
+  "description": "",
+  "main": "mh-journal-privacy.user.js",
+  "scripts": {
+    "lint": "npx eslint *.js -c .eslintrc.json"
+  },
+  "author": "Brad Parbs <brad@bradparbs.com> (https://bradparbs.com/)",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^8.16.0",
+    "@wordpress/eslint-plugin": "^12.9.0"
+  }
+}
