@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         🐭️ Mousehunt - Journal Privacy
-// @version      1.0.0
+// @version      1.0.1
 // @description  Hides usernames from the journal entries on the journal page.
 // @license      MIT
 // @author       bradp
