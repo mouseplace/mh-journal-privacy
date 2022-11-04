@@ -81,17 +81,17 @@
 
 			// if entry matches a name, add class
 			const match = entry.textContent.match(/(.*)( has joined the | has left the | used Rare Map Dust |, the map owner, has )/);
-			if (match && match[1]) {
+			if (match && match[ 1 ]) {
 				// Wrap the match in a span.
 				const span = document.createElement('span');
 				span.classList.add('mh-journal-privacy-name');
-				span.textContent = match[1];
+				span.textContent = match[ 1 ];
 
 				// Replace the match with the span.
-				entry.innerHTML = entry.innerHTML.replace(match[1], span.outerHTML);
+				entry.innerHTML = entry.innerHTML.replace(match[ 1 ], span.outerHTML);
 			}
 		});
-	}
+	};
 
 	addStyles(`
 		#journalContainer .entry:not(.badge) a[href*="profile.php"],
@@ -121,5 +121,5 @@
 
 	onAjaxRequest(() => {
 		applyClassToNames();
-	}, 'managers/ajax/pages/journal.php' );
+	}, 'managers/ajax/pages/journal.php');
 })());
