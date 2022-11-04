@@ -1,4 +1,4 @@
-# mh-journal-privacy
+# 🐭️ Mousehunt - Journal Privacy
 
 A Userscript for [MouseHunt](https://mousehuntgame.com) that hides usernames from the journal entries on the journal page.
 
