@@ -1,6 +1,6 @@
 {
   "name": "mh-journal-privacy",
-  "version": "1.0.1",
+  "version": "1.0.2",
   "description": "",
   "main": "mh-journal-privacy.user.js",
   "scripts": {
