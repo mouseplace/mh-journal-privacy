@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         🐭️ Mousehunt - Journal Privacy
-// @version      1.0.2
+// @version      1.0.3
 // @description  Hides usernames from the journal entries on the journal page.
 // @license      MIT
 // @author       bradp
@@ -47,8 +47,8 @@
   #journalContainer .journal__hunter-name,
   .mh-journal-privacy-name {
     display: inline-block;
-    height: 12px;
     width: 50px;
+    height: 12px;
     overflow: hidden;
     color: transparent;
   }
@@ -64,9 +64,10 @@
   #journalContainer .journal__hunter-name:focus,
   .mh-journal-privacy-name:hover,
   .mh-journal-privacy-name:focus {
-    color: #3b5998;
     display: inline;
-  }`);
+    color: #3b5998;
+  }
+  `);
 
   onAjaxRequest(() => {
     applyClassToNames();
