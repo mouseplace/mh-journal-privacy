@@ -1,9 +1,5 @@
 # 🐭️ Mousehunt - Journal Privacy
 
-![Greasy Fork](https://img.shields.io/greasyfork/dt/453301)
-![GitHub](https://img.shields.io/github/license/mouseplace/mh-journal-privacy)
-![GitHub tag (latest SemVer)](https://img.shields.io/github/v/tag/mouseplace/mh-journal-privacy?label=version)
-
 A Userscript for [MouseHunt](https://mousehuntgame.com) that hides usernames from the journal entries on the journal page.
 
 ## Installation
