@@ -1,6 +1,6 @@
 // ==UserScript==
 // @name         🐭️ Mousehunt - Journal Privacy
-// @version      1.0.4
+// @version      1.1.0
 // @description  Hides usernames from the journal entries on the journal page.
 // @license      MIT
 // @author       bradp
@@ -10,6 +10,7 @@
 // @grant        none
 // @run-at       document-end
 // @require      https://cdn.jsdelivr.net/npm/mousehunt-utils@1.5.2/mousehunt-utils.js
+// @require      https://cdn.jsdelivr.net/npm/script-migration@1.1.1
 // ==/UserScript==
 
 ((function () {
@@ -72,4 +73,6 @@
   onAjaxRequest(() => {
     applyClassToNames();
   }, 'managers/ajax/pages/journal.php');
+
+  migrateUserscript('🐭️ MouseHunt - Journal Privacy', 'https://greasyfork.org/en/scripts/453301-mousehunt-journal-privacy');
 })());
